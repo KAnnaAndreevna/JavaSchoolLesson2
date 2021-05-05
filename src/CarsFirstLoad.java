@@ -6,6 +6,8 @@ import java.util.Map;
 public class CarsFirstLoad {
     public static Collection<Car> init (Collection<Car> cars){
         cars.add(new Car(1L,"BMW","Sedan"));
+        cars.add(new Car(2L,"BMW","Crossover"));
+        cars.add(new Car(3L,"BMW","Coupe"));
         return cars;
     }
 
