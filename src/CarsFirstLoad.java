@@ -8,6 +8,8 @@ public class CarsFirstLoad {
         cars.add(new Car(1L,"BMW","Sedan"));
         cars.add(new Car(2L,"Toyota","Crossover"));
         cars.add(new Car(3L,"Kia","Coupe"));
+        cars.add(new Car(4L,"Kia","Crossover"));
+        cars.add(new Car(5L,"BMW","Coupe"));
         return cars;
     }
 
